@@ -1,0 +1,240 @@
+html {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  margin: 0;
+  color: #333;
+}
+
+
+/* Sidebar*/
+#sidebar{
+  background-color: #666;
+  color: #fff;
+  padding: 40px;
+}
+
+#sidebar h2{
+  color: #FF9900;
+  margin-bottom: 30px;
+  font-size: 2rem;
+}
+
+#sidebar h4{
+  color: #FF9900;
+  margin-top: 40px;
+  font-size: 1.5rem;
+}
+
+/* Sidebar Contact Info*/
+#contact-info {
+  margin-bottom: 20px;
+}
+
+#contact-info a {
+  color: #fff;
+}
+#contact-info a:hover {
+  text-transform: none;
+  text-decoration: none;
+  color: #FFE3B9;
+}
+
+#contact-info p {
+  margin: 10px;
+  font-size: 0.95rem;
+}
+#contact-info i {
+  color: #FF9900;
+  margin-right: 10px;
+}
+
+
+/* Sidebar tagline */
+#tagline {
+  text-align: justify;
+}
+
+/* Sidebar Skills and Education */
+#sidebar .title{
+  color: #FFE3B9;
+  margin: 0px;
+  font-size: 1.1rem;
+}
+
+#sidebar .info{
+  margin: 0 0 12px 0;
+  font-style: italic; ;
+}
+
+#sidebar .course {
+  margin: 5px 0;
+}
+
+#sidebar .course p {
+  margin: 0px;
+}
+
+#sidebar .course i {
+  color: #FF9900;
+}
+
+#sidebar .course a {
+  color: #fff;
+}
+
+#sidebar .course a:hover {
+  text-transform: none;
+  text-decoration: none;
+  color: #FFE3B9;
+}
+
+#sidebar .membership {
+  margin: 5px 0;
+}
+
+#sidebar .membership p {
+  margin: 0px;
+}
+
+#sidebar .membership i {
+  color: #FF9900;
+  font-size: 0.9rem;
+}
+
+
+
+
+
+/* Main Container*/
+#main {
+  padding: 20px 40px;
+}
+
+#projects {
+  margin: 50px 0;
+}
+
+#main h3{
+ color: #FF9900;
+ margin-top: 40px;
+ font-size: 1.5rem;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 2px solid #FF9900;
+  margin: 1em 0;
+  padding: 0;
+  width: 70%;
+  margin-bottom: 10px
+}
+
+#main .title {
+  float: left;
+  margin: 15px 0 0 0;
+  font-size: 1.1rem;
+}
+
+#main .links {
+  float: right;
+  margin: 15px 0 0 0;
+}
+
+#main .links:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+#main .links img {
+  margin-left: 15px;
+  height: 15px;
+  width: auto;
+}
+
+#main .links a {
+  color: #FF9900;
+  text-transform: none;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+
+#main .links a:hover {
+  color: #FF9900;
+}
+
+#main .heroku {
+  max-height: 20px;
+  padding-right: 3px;
+}
+
+#main .info {
+  clear: both;
+  margin: 10px 0 20px 10px;
+}
+
+#main .info p {
+  margin-bottom: 5px;
+  text-align: justify;
+  font-size: 1.1rem;
+}
+
+#main .info i {
+  padding-right: 3px;
+}
+
+#main .stack {
+  font-style: italic;
+  font-size: 0.9em;
+}
+
+
+#main .date {
+  float: right;
+  font-weight: bold;
+  font-size: 0.9em;
+    margin: 15px 0 0 0;
+}
+
+#main .date:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+
+/* Experince section */
+#main .subtitle {
+  clear: both;
+}
+
+#main .subtitle p {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+#main ul {
+  padding: 0 0 0 15px;
+  margin: 0px;
+  text-align: justify;
+}
+
+#main li {
+  padding: 10px 0;
+  font-size: 1.1rem;
+}
+
