@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
-  font-size: 15px;
+  font-size: 18px;
 }
 *, *:before, *:after {
   box-sizing: inherit;
@@ -22,7 +22,7 @@ body {
 #sidebar{
   background-color: #666;
   color: #fff;
-  padding: 40px;
+  padding: 50px;
 }
 
 #sidebar h2{
@@ -59,7 +59,6 @@ body {
   color: #FF9900;
   margin-right: 10px;
 }
-
 
 /* Sidebar tagline */
 #tagline {
@@ -119,7 +118,7 @@ body {
 
 /* Main Container*/
 #main {
-  padding: 20px 40px;
+  padding: 30px 70px 30px 40px;
 }
 
 #projects {
@@ -197,9 +196,13 @@ hr {
   padding-right: 3px;
 }
 
-#main .stack {
+#main p.stack {
   font-style: italic;
   font-size: 0.9em;
+}
+
+#main .stack i {
+  display: none;
 }
 
 
@@ -234,7 +237,7 @@ hr {
 }
 
 #main li {
-  padding: 10px 0;
+  padding: 3px 0;
   font-size: 1.1rem;
 }
 
